@@ -87,14 +87,6 @@ Review6:
 // public string Color { get; set; }  
 
 
-Review7:
-
-// Use a more descriptive variable name like 'formattedDate' instead of 'ymdstr'.  
-// Ensure the format aligns with the intended usage; "MMMM dd, yyyy" is a long date format.  
-// If localization is needed, consider using CultureInfo for better adaptability.  
-// Example: var formattedDate = DateTime.UtcNow.ToString("MMMM dd, yyyy", CultureInfo.InvariantCulture);  
-
-
 Review9:
 
 // Avoid using `null` as a default parameter value; consider using an explicit default like "Hipster Brew Co." directly.  
